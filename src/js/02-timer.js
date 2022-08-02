@@ -2,7 +2,6 @@ import flatpickr from "flatpickr";
 // Дополнительный импорт стилей
 import "flatpickr/dist/flatpickr.min.css";
 
-
 const startBtnEl = document.querySelector('[data-start]');
 const inputEl = document.querySelector('#datetime-picker');
 
@@ -14,8 +13,6 @@ const secondsEl = document.querySelector("[data-seconds]")
 // const inputDate = new Date()
 // const today = new Date();
 
-
-
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -26,17 +23,22 @@ const options = {
         if (selectedDates[0] <= Date.now()) {
             window.alert("Please choose a date in the future");
             return;
-        } else {
-            const deltaTime = selectedDates[0] - Date.now();
-            startBtnEl.addEventListener('click', setInterval(() => {
+      } 
+      startBtnEl.addEventListener("click", onTimer)
+             function onTimer() {
+  setInterval(() => {
+              let deltaTime = selectedDates[0] - Date.now();
                 convertMs(deltaTime)
                 console.log(deltaTime)
-            }, 1000));
-        }    
+            }, 1000)
+}
+            
   },
 };
 
-flatpickr(inputEl, options)
+flatpickr(inputEl, options)  
+
+
 
 function convertMs(ms) {
   // Number of milliseconds per unit of time
