@@ -19,16 +19,22 @@ img {
 
 .timer{
   display: flex;
+  font-family: myArial;
 }
 .field{
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-weight: 500;
 }
 .value{
-  padding: 10px;
+  background-color: gold;
+  margin: 10px;
+  padding: 5px;
   display: flex;
-  align-items: center;justify-content: center;
-font-weight: 200;
-font-size: 50;
+  align-items: center;
+  justify-content: center;
+font-weight: 500;
+font-size: 35;
+border: 2px solid ;
 }
