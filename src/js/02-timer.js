@@ -36,8 +36,9 @@ const options = {
       function onTimer() {
         let timerId = setInterval(() => {
           let deltaTime = selectedDates[0] - Date.now();
-          if (deltaTime < 1000) {
-                 clearInterval(timerId);
+          if (deltaTime < 0) {
+            clearInterval(timerId);
+            return;
                }
           convertMs(deltaTime)
           console.log(deltaTime)
