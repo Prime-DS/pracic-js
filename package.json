@@ -1,15 +1,15 @@
 {
-  "name": "goit-js-hw-09",
+  "name": "pracic-js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Prime-DS.github.io/goit-js-hw-09",
+  "homepage": "https://Prime-DS.github.io/pracic-js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /pracic-js/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prime-DS/goit-js-hw-09.git"
+    "url": "git+https://github.com/Prime-DS/pracic-js.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
