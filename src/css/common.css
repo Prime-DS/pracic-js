@@ -38,3 +38,16 @@ font-weight: 500;
 font-size: 35;
 border: 2px solid ;
 }
+
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list .list__item{
+  margin: 3px;
+  width: 400px;
+  height: 450px;
+  background-color: dimgray;
+  outline: 1px solid red;
+}
