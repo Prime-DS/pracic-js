@@ -1,15 +1,15 @@
 {
-  "name": "pracic-js",
+  "name": "pratcic-js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Prime-DS.github.io/pracic-js",
+  "homepage": "https://Prime-DS.github.io/practic-js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /pracic-js/"
+    "build": "parcel build src/*.html --public-url /practic-js/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prime-DS/pracic-js.git"
+    "url": "git+https://github.com/Prime-DS/practic-js.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
