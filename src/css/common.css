@@ -27,7 +27,7 @@ img {
   text-align: center;
   font-weight: 500;
 }
-.value{
+/* .value{
   background-color: gold;
   margin: 10px;
   padding: 5px;
@@ -37,17 +37,21 @@ img {
 font-weight: 500;
 font-size: 35;
 border: 2px solid ;
-}
+} */
 
 
-.list{
+/* .list{
   display: flex;
   flex-wrap: wrap;
-}
-.list .list__item{
+} */
+/* .list .list__item{
   margin: 3px;
   width: 400px;
   height: 450px;
   background-color: dimgray;
   outline: 1px solid red;
+} */
+
+.hide{
+  display: none;
 }
